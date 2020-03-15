@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b563bb-56c8-4838-9437-fc08700785ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/out/production/classes/MyFirstProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/MyFirstProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/out/production/classes/ru/stqa/pft/sandbox/MyFirstProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/out/production/classes/ru/stqa/pft/sandbox/MyFirstProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -55,10 +63,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="C:/Lessons/java_pft" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.sandbox" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -92,30 +106,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="375" y="408" width="407" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1584280906163" />
-    <state x="232" y="118" key="CommitChangelistDialog2" timestamp="1584281069297">
+    <state x="232" y="118" key="CommitChangelistDialog2" timestamp="1584296398656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="232" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584281069297" />
-    <state width="1125" height="212" key="GridCell.Tab.0.bottom" timestamp="1584280052616">
+    <state x="232" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584296398656" />
+    <state x="358" y="278" key="FileChooserDialogImpl" timestamp="1584296253872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1125" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584280052616" />
-    <state width="1125" height="212" key="GridCell.Tab.0.center" timestamp="1584280052615">
+    <state x="358" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584296253872" />
+    <state width="1314" height="213" key="GridCell.Tab.0.bottom" timestamp="1584296348360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1125" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584280052615" />
-    <state width="1125" height="212" key="GridCell.Tab.0.left" timestamp="1584280052615">
+    <state width="1314" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584296348360" />
+    <state width="1314" height="213" key="GridCell.Tab.0.center" timestamp="1584296348360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1125" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584280052615" />
-    <state width="1125" height="212" key="GridCell.Tab.0.right" timestamp="1584280052616">
+    <state width="1314" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584296348360" />
+    <state width="1314" height="213" key="GridCell.Tab.0.left" timestamp="1584296348360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1125" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584280052616" />
-    <state x="72" y="94" key="SettingsEditor" timestamp="1584281106766">
+    <state width="1314" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584296348360" />
+    <state width="1314" height="213" key="GridCell.Tab.0.right" timestamp="1584296348360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584281106766" />
+    <state width="1314" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584296348360" />
+    <state x="72" y="94" key="SettingsEditor" timestamp="1584281382682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584281382682" />
     <state x="288" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584257025393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
